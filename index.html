@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lewis Hamilton | LH44 - The Legend</title>
+    <meta name="description" content="Discover the legacy of 7-time Formula 1 World Champion Lewis Hamilton.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">LH<span>44</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#stats">Legacy</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#cta">Connect</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <!-- Space for a background video element -->
+        <div class="video-container">
+            <canvas id="hero-sequence" class="bg-video"></canvas>
+            <div class="video-overlay"></div>
+        </div>
+
+        <div class="hero-content" data-scroll>
+            <h1 class="headline">LEWIS<br><span class="highlight">HAMILTON</span></h1>
+            <p class="subheadline">7-Time Formula 1 World Champion</p>
+            <a href="#stats" class="btn btn-primary">Discover the Legacy <span class="arrow">↓</span></a>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <h2 class="section-title" data-scroll>A Career <span class="highlight">Defined</span> by Greatness</h2>
+            <div class="stats-grid">
+                <div class="stat-card" data-scroll>
+                    <div class="stat-value">7</div>
+                    <div class="stat-label">World Championships</div>
+                </div>
+                <div class="stat-card" data-scroll>
+                    <div class="stat-value">103+</div>
+                    <div class="stat-label">Race Victories</div>
+                </div>
+                <div class="stat-card" data-scroll>
+                    <div class="stat-value">104+</div>
+                    <div class="stat-label">Pole Positions</div>
+                </div>
+                <div class="stat-card" data-scroll>
+                    <div class="stat-value">197+</div>
+                    <div class="stat-label">Podium Finishes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section id="quotes" class="quote-section">
+        <div class="quote-bg-glow"></div>
+        <div class="container">
+            <blockquote data-scroll>
+                "I feel like people expect me to fail, therefore I expect myself to win."
+                <cite>— Lewis Hamilton</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Gallery / Showcase Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title text-center" data-scroll>The <span class="highlight">Showcase</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-scroll>
+                    <img src="assets/images/f1_cockpit_1771842652420.png" alt="F1 Cockpit View">
+                    <div class="item-overlay">
+                        <h3>Precision</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-scroll>
+                    <img src="assets/images/f1_helmet_1771842696408.png" alt="Racing Helmet">
+                    <div class="item-overlay">
+                        <h3>Focus</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-scroll>
+                    <img src="assets/images/f1_trophy_1771842679064.png" alt="Championship Trophy">
+                    <div class="item-overlay">
+                        <h3>Glory</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-scroll>
+                    <img src="assets/images/f1_car_hero_1771842621598.png" alt="F1 Car Speeding">
+                    <div class="item-overlay">
+                        <h3>Speed</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="cta-section">
+        <div class="container cta-container" data-scroll>
+            <h2>Join the <span class="highlight">LH44</span> Legacy</h2>
+            <p>Subscribe for exclusive updates, behind-the-scenes content, and racing insights directly to your inbox.
+            </p>
+            <form class="cta-form" onsubmit="event.preventDefault();">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit" class="btn btn-secondary">Subscribe Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">LH<span>44</span></div>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+            </div>
+            <p class="copyright">&copy; 2026 LH44 Official Tribute. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+</body>
+
+</html>
