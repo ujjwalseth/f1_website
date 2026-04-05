@@ -28,7 +28,12 @@ It demonstrates UI design, layout structuring, and responsive behavior across de
 - Simple and intuitive user experience  
 
 ## 📸 Screenshots
-_Add screenshots of your website here_
+<img width="2946" height="1571" alt="image" src="https://github.com/user-attachments/assets/1f662e6d-de4c-4a0f-a477-b1549853280e" />
+<img width="2939" height="1492" alt="image" src="https://github.com/user-attachments/assets/80bbad4a-b860-4c95-91a8-9a2b23dd8556" />
+<img width="2926" height="1575" alt="image" src="https://github.com/user-attachments/assets/5f518737-ffcf-44e4-a606-ff14e48dfead" />
+<img width="2931" height="1607" alt="image" src="https://github.com/user-attachments/assets/84ec627c-70a1-4a7b-846c-7873b24f4d4d" />
+
+
 
 ##  What I Learned
 - Structuring frontend projects effectively  
