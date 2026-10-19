@@ -46,7 +46,7 @@ This project is built for educational and learning purposes only.
 It uses the public persona of Lewis Hamilton as a reference for design and content demonstration.
 
 ## 🌐 Live Demo
-[View Website](https://699c83d2112fe9309da149eb--aster-f1website.netlify.app/)
+[View Website](https://aster-f1website.netlify.app/)
 
 ## 📂 Project Setup
 To run locally:
